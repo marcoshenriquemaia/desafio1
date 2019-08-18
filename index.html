@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="reset.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cadastro</title>
+  </head>
+  <body>
+    <form class="container">
+      <section class="container-cadastro">
+        <h1 class="titulo-cadastro">Cadastre-se</h1>
+        <p class="text-cadastro">
+          Para acessar a página é preciso realizar um cadastro. Todos os campos
+          são obrigatórios. Garantimos que todos os dados estão em segurança.
+        </p>
+        <div class="box-campos">
+          <div class="wrap-nome">
+            <div class="wrap-primeiro-nome wrap-all-nome">
+              <label for="campo-primeiro-nome" class="text-campo-nome"
+                >Primeiro nome</label
+              >
+              <input
+                type="text"
+                class="campo-cadastro campo-primeiro-nome"
+                id="campo-primeiro-nome"
+              />
+            </div>
+            <div class="wrap-sobrenome wrap-all-nome">
+              <label for="campo-sobrenome" class="text-campo-nome"
+                >Sobrenome</label
+              >
+              <input
+                class="campo-cadastro campo-sobrenome"
+                id="campo-sobrenome"
+                type="text"
+              />
+            </div>
+          </div>
+          <div class="wrap-email">
+            <label for="campo-email" class="text-campo-nome">E-mail</label>
+            <input
+              class="campo-cadastro campo-email"
+              id="campo-email"
+              type="email"
+            />
+          </div>
+          <div class="wrap-senha">
+            <label for="campo-senha" class="text-campo-nome">Senha</label>
+            <input
+              class="campo-cadastro campo-senha"
+              id="campo-senha"
+              type="password"
+            />
+          </div>
+          <div class="wrap-confirmar-senha">
+            <label
+              for="campo-confirmar-senha"
+              class="text-campo-nome"
+              >Confirmar senha</label
+            >
+            <input
+              class="campo-cadastro campo-confirmar-senha"
+              id="campo-confirmar-senha"
+              type="password"
+            />
+          </div>
+        </div>
+        <span class='aviso'>Algo de errado não está certo</span>
+        <button class="botao-cadastrar" type=>Cadastrar-se</button>
+      </section>
+    </form>
+
+<script src="index.js">
+</script>
+  </body>
+</html>

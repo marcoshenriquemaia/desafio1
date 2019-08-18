@@ -1,0 +1,108 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #547AE5;
+    --primaria: #547AE5;
+    --secudaria: rgba(252, 252, 252, 0.959);
+    --tercearia: #808080;
+}
+.container{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    width: 65%;
+    height: 80%;
+    background-color: var(--secudaria);
+    border-radius: .5rem;
+}
+.container-cadastro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.titulo-cadastro{
+    display: flex;
+    margin-top: 9%;
+    width: 60%;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+.text-cadastro{
+    width: 60%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: var(--tercearia);
+}
+.wrap-nome{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+.wrap-all-nome{
+    width: 48%;
+    display: flex;
+    height: 3em;
+    flex-direction: column;
+}
+.box-campos{
+    width: 60%;
+}
+.text-campo-nome{
+    color: var(--tercearia);
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.campo-cadastro{
+    border-radius: .2em;
+    border: 1px solid var(--tercearia);
+    width: 100%;
+    height: 1.5em;
+}
+.wrap-email{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: var(--tercearia);
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.wrap-senha{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: var(--tercearia);
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.wrap-confirmar-senha{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: var(--tercearia);
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.botao-cadastrar{
+    color: #fff;
+    margin-top: 1.8em;
+    width: 60%;
+    height: 2.5em;
+    border: none;
+    background-color: var(--tercearia);
+    border-radius: .3em;
+}
+.aviso{
+    font-size: .7em;
+    color: red;
+    margin-top: .5em;
+}
+.box-confirmacao{
+    background-color: red;
+}
